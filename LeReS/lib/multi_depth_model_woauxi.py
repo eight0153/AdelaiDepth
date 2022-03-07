@@ -1,5 +1,5 @@
-from lib import network_auxi as network
-from lib.net_tools import get_func
+import thirdparty.adelai_depth.LeReS.lib.network_auxi as network
+from thirdparty.adelai_depth.LeReS.lib.net_tools import get_func
 import torch
 import torch.nn as nn
 
